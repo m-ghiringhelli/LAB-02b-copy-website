@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    background-color: azure;
+    grid-template-rows: 75px 1fr 20px;
+}
+
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+header {
+    background: darkslategrey;
+    color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 150px 1fr 50px;
+    align-items: center;
+}
+
+nav {
+    justify-self: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    overflow-y: auto;
+    padding: 8px;
+}
+
+footer {
+    background: dimgrey;
+    color: lightcyan;
+    font-size: 0.8rem;
+    display: grid;
+    align-items: center;
+
+}
